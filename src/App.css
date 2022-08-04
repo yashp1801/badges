@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem 0;
+}
+.app_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+}
+.app_container h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.app_container form {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-top: 1rem;
+}
+.app_container input {
+  padding: 10px ;
+  font-size: 1rem;
+  text-transform: capitalize;
+  color: #141414;
+  width: 75%;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  background-color: #e6e6e6;
+}
+
+.app_container button {
+  padding: 5px 20px;
+  font-size: 1rem;
+  color: #141414;
+  border: none;
+  background-color: cornflowerblue;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.app_recipe{
+  margin-top: 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
